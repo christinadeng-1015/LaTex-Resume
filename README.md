@@ -2,7 +2,7 @@ A single page one column resume for software developers. It uses the base latex 
 
 
 ### Preview
-![Resume Screenshot](/Christina_Deng - LaTex.png)
+![Resume Screenshot](/ChristinaDeng_resume.png)
 
 ### License
 Format is MIT but all the data is owned by Sourabh Bajaj.
