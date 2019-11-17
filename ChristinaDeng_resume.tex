@@ -1,0 +1,178 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://christinadeng.com/}{\Large CHRISTINA DENG}} & Mobile: 604-729-2762\\
+  Personal website: \href{https://christinadeng.com/}{christinadeng.com} 
+  & Email: \href{mailto:christinadeng1015@gmail.com}{christinadeng1015@gmail.com} \\
+  Online resume: \href{http://christinadeng-1015.github.io/MyResume}{christinadeng-1015.github.io/MyResume} 
+  & Address: 5 St Joseph Street, Toronto, ON 
+\end{tabular*}
+
+%-----------Overview-----------------
+\section{Overview}
+
+    \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, itemindent=-0.5cm]
+    \item App/Web Developer with comprehensive experience in agile digital development and quantitative analysis
+    \item Leverage machine learning, data structure and algorithms; critical thinker, problem solver and team player
+    \item Great communication skills developed through customer oriented roles; multilingual English and Mandarin
+    \end{itemize}
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+\item{
+ \textbf{Front-end}{: HTML, CSS, Javascript, Angular, LESS, SCSS, Bootstrap, jQuery}
+ \hfill
+ \textbf{Back-end}{: Python, Java, SQL}
+}
+
+\item{
+ \textbf{Analytics}{: R Studio, SQL, VBA, MATLAB, Google Analytics, Excel}
+ \hfill
+ \textbf{Version Control}{: Git, Bitbucket}
+}
+\item{
+ \textbf{Tools}{: LaTex, OneNote, Contentful, Jira, NPM, JFrog, Abstract, Photoshop, Illustrator, XD}
+}
+
+%-----------EDUCATION-----------------
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Toronto}{Toronto, ON}
+      {Honors Bachelor of Science, Mathematics Specialist \& Statistics Major}{Sep 2015 -- Jun 2018}
+    \resumeSubheading
+      {University of Waterloo}{Waterloo, ON}
+      {General First year, Mathematics Honors}{Sep 2014 -- May 2015}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Application Developer}{Toronto, ON}
+      {Rogers Communications Inc.}{Jul 2019 - Present}
+      \resumeItemListStart
+      \resumeItem{Languages}
+          {Angular, TypeScript, JavaScript, Node, HTML, CSS, SCSS;}
+        \resumeItem{Tools}
+          {Visual Studio Code, Git, Contentful, Jira, Bitbucket, JFrog, NPM, Abstract}
+        \resumeItem{Program}
+          {Enroll in New Graduate Leadership Program under digital department as developer }
+        \resumeItem{Workflow}
+          {Contribute and aware of all sorts of agile ceremonies (user story, sprint planning, and retrospective)}
+        \resumeItem{Core responsibilities}
+          {Build assembled components in Angular for Rogers and Fido browse pages and create UI extensions and migrate scripts to Contentful DEV and QA environment. Define test cases and metrics}
+
+         \resumeItem{Achievement}
+          {Implement soft limit count to text field in JavaScript to allow business users exceed limit while triggering alerts. Develop article template and video component for Rogers Design System}
+         \resumeItem{Teamwork}
+          {Coordinate with product manager, designer and quality assurance to deliver high quality work}
+         \resumeItem{Network}
+          {Connect with front line employees from retail stores and call centers to understand customers' needs }
+          \resumeItem{Volunteer}
+          {Support company annual soirees, group interview days, campus tours and various networking events}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Data Analyst Intern}{Xiamen, Fujian}
+      {China Mobile}{May 2018 - Sep 2018}
+      \resumeItemListStart
+        \resumeItem{Languages and Tools}
+          {R Studio, Python; Microsoft Excel, Microsoft Word, Microsoft PowerPoint }
+        \resumeItem{Core responsibilities}
+          {Created pivot tables in Excel to extract significance from large data sets and matched information with VLOOKUP. Transformed corresponding data to make comparison models and create dashboards}
+         \resumeItem{Achievement}
+          {Utilized R skills to interpret and forecast customer behaviors. Improved business sales by 8\% in 3 months period. Illustrated high quality of work and attention to details by achieving 95\% of accuracy in verifying various data sources}
+        \resumeItem{Teamwork}
+          {Collaborated effectively with the team and presented key findings with insights to senior executives }
+        \resumeItem{Strength}
+          {Ability to multi-task, prioritize without supervision and meet deadlines regardless of workloads}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Awards}
+
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, itemindent=-0.5cm]
+\item Canadian Tire Hackathon Finalist 
+\item Rogers New Graduate Leadership Case Competition 2\textsuperscript{nd} Place 
+\item University of Waterloo Faculty Annual \& President’s Scholarship
+\item Canadian Open Mathematics Challenge Performance with Distinction 
+\item British Columbia Badminton Provincial Bronze Medal
+\end{itemize}
+
+%-------------------------------------------
+\end{document}
