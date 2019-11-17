@@ -5,4 +5,5 @@ A single page one column resume for software developers. It uses the base latex 
 ![Resume Screenshot](/ChristinaDeng_resume.png)
 
 ### License
-Format is MIT but all the data is owned by Sourabh Bajaj.
+All the data is owned by Christina Deng.
+Format is MIT and template created by Sourabh Bajaj.
