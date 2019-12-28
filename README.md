@@ -2,7 +2,7 @@ A single page one column resume for software developers. It uses the base latex 
 
 
 ### Preview
-![Resume Screenshot](/ChristinaDeng_resume.png)
+![Resume Screenshot](/ChristinaDeng.png)
 
 ### License
 All the data is owned by Christina Deng.
